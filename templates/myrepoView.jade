@@ -1,0 +1,88 @@
+h5= item.full_name
+
+div.row
+  div.two.columns
+    h5 Owner Info
+  div.ten.columns
+    div.row
+      b= 'url: '
+      = item.owner['url']
+    div.row
+      b= 'type: '
+      = item.owner['type']
+    div.row
+      b= 'site_admin: '
+      = item.owner['site_admin']
+
+div.row
+  div.five.columns(style='font-family:Comic Sans MS;font-size:100%')
+    = 'created at: '
+  div.seven.columns
+    = item.created_at
+
+div.row
+  div.five.columns(style='font-family:Comic Sans MS;font-size:100%')
+    = 'updated at: '
+  div.seven.columns
+    = item.updated_at
+
+div.row
+  div.five.columns(style='font-family:Comic Sans MS;font-size:100%')
+    = 'pushed at: '
+  div.seven.columns
+    = item.pushed_at
+
+div.row
+  div.five.columns(style='font-family:Comic Sans MS;font-size:100%')
+    = 'forks: '
+  div.seven.columns
+    = item.forks
+
+div.row
+  div.five.columns(style='font-family:Comic Sans MS;font-size:100%')
+    = 'forks count: '
+  div.seven.columns
+    = item.forks_count
+
+div.row
+  div.five.columns(style='font-family:Comic Sans MS;font-size:100%')
+    = 'open issues: '
+  div.seven.columns
+    = item.open_issues
+
+div.row
+  div.five.columns(style='font-family:Comic Sans MS;font-size:100%')
+    = 'watchers: '
+  div.seven.columns
+    = item.watchers
+
+div.row
+  div.five.columns(style='font-family:Comic Sans MS;font-size:100%')
+    = 'default branch: '
+  div.seven.columns
+    = item.default_branch
+
+div.row
+  div.five.columns(style='font-family:Comic Sans MS;font-size:100%')
+    = 'language: '
+  div.seven.columns
+    = item.language
+
+div.row
+  div.five.columns(style='font-family:Comic Sans MS;font-size:100%')
+    = 'size: '
+  div.seven.columns
+    = item.size
+
+div.row
+  div.five.columns(style='font-family:Comic Sans MS;font-size:100%')
+    = 'has wiki: '
+  div.seven.columns
+    = item.has_wiki
+
+div.row
+  div.five.columns(style='font-family:Comic Sans MS;font-size:100%')
+    = 'has issues: '
+  div.seven.columns
+    = item.has_issues
+
