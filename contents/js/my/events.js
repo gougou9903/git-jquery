@@ -17,7 +17,8 @@ function myEvents(){
             $("#list").html(html)
 
             $("#details").html(" ")
-
+            
+            
         })
 
     })
