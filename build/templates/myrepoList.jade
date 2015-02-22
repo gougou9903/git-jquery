@@ -1,0 +1,17 @@
+each item in items
+    div.row 
+        div.four.columns
+            a(href="#", onClick='myRepo("' + item.full_name + '")')
+                = item.full_name
+        div.two.columns
+            = item.open_issues
+            |  issues
+        div.two.columns
+            | size: 
+            = item.size
+        div.two.columns
+            = item.forks
+            |  forks
+        div.two.columns
+            | private: 
+            = item.private
