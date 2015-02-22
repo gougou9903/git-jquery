@@ -4,7 +4,7 @@ function repoView(full_name){
 
     // e.g., https://api.github.com/repos/ucdd2-sp15/nn-express
 
-    $.get("https://api.github.com/repos/" + full_name, github, function(data) {
+    $.get("https://api.github.com/repos/" + full_name, github, function(data) { // get data from github API
         
         var repo = data
         // console.log(repo)
